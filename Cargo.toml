@@ -1,0 +1,10 @@
+[package]
+name = "dojo-ninja"
+version = "0.1.0"
+authors = ["Niels Nielsen <slein.nroh@gmail.com>"]
+
+[dependencies]
+serenity="0.5"
+
+[replace]
+"openssl:0.9.24" = { git = "https://github.com/ishitatsuyuki/rust-openssl", branch = "0.9.x" }
